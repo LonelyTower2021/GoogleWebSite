@@ -1,0 +1,1 @@
+Odin Project Assignment to replicate the Google Home Page.
