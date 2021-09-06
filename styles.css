@@ -7,7 +7,7 @@ body {
 .google_container {
     display: block;
     text-align: center;
-    margin: 200px 0;
+    margin: 68px auto 55px auto;
 }
 
 nav {
@@ -27,12 +27,20 @@ nav a {
 }
 
 .form_group {
+    text-align: center;
     margin: auto;
-    width: 50%;
 }
 
 .form_group input {
     width: 100%;
+    max-width: 900px;
     height: 35px;
 }
 
+.form_input button {
+    width: 30%;
+    max-width: 170px;
+    min-width: 170px;
+    padding: 15px;
+    margin: 43px 17px 0px auto;
+}
