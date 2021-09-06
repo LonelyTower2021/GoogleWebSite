@@ -1,0 +1,35 @@
+body {
+    background-color: white;
+}
+
+.blank_header {
+    display: block;
+    padding-bottom: 12px;;
+    margin-bottom: 12px;
+    /* border: 2px solid black; */
+}
+
+.leftnav {
+    display: inline-block;
+    /* border: 2px solid black; */
+}
+
+.rightnav {
+    right: 20px;
+    display: inline-block;
+    position: absolute;
+
+    /* border: 2px solid black; */
+}
+
+a {
+    margin: 20px;
+}
+
+nav p {
+    display: inline;
+    margin: 12px;
+    padding: 20px;
+    /* border-width: 2px;
+    border-style: solid; */
+}
