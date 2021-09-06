@@ -4,30 +4,24 @@ body {
     margin-top: 20px;
 }
 
-nav {
+.google_container {
     display: block;
-    padding-bottom: 20px;
+    text-align: center;
+    margin: 200px 0;
+}
+
+nav {
+    padding: 10px 0;
+}
+
+nav a {
+    margin: 0 25px;
 }
 
 .leftnav {
     float: left;
-    /* border: 2px solid black; */
 }
 
 .rightnav {
-    right: 20px;
     float: right;
-    /* border: 2px solid black; */
-}
-
-a {
-    margin: 20px;
-}
-
-nav p {
-    display: inline;
-    margin: 3px;
-    padding: 12px;
-    /* border-width: 2px;
-    border-style: solid; */
 }
