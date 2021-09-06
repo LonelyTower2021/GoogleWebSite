@@ -25,3 +25,14 @@ nav a {
 .rightnav {
     float: right;
 }
+
+.form_group {
+    margin: auto;
+    width: 50%;
+}
+
+.form_group input {
+    width: 100%;
+    height: 35px;
+}
+
