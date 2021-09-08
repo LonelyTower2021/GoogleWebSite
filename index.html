@@ -3,7 +3,7 @@
     <head>
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="styles.css">
-        <nav>
+        <nav top_bott>
             <div class="leftnav">
                 <a class="about" href="">About</a>
                 <a class="store" href="">Store</a>
@@ -11,8 +11,8 @@
             <div class="rightnav">
                 <a class="gmail" href="">Gmail</a>
                 <a class="images" href="">Images</a>
-                <a class="waffle icon" href=""><span class="material-icons">apps</span></a>
-                <a class="user icon" href="#"><span class="material-icons">account_circle</span></a>
+                <a class="icon" href=""><span class="material-icons waffle">apps</span></a>
+                <a class="icon" href="#"><span class="material-icons user">account_circle</span></a>
             </div>
         </nav>
     </head>
@@ -21,15 +21,16 @@
             <img class="google_logo" src="fakegoogle.png" alt="">
         </div>
         <form class="search" action="">
-                <div class="form_group">
-                    <input type="text">
+                <div>
+                    <span class="material-icons search_icon">search</span>
+                    <input class="search_box" type="text">
                 </div>
-                <div class="form_group form_input">
-                    <button>Google Search</button>
-                    <button>I'm Feeling Lucky</button>
+                <div>
+                    <button class="search_button">Google Search</button>
+                    <button class="search_button">I'm Feeling Lucky</button>
                 </div>
         </form>
-        <footer>
+        <footer class="top_bott">
             <div class="footer_left">
                 <a href="">Advertising</a>
                 <a href="">Business</a>

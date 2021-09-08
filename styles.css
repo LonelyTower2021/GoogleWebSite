@@ -1,3 +1,8 @@
+:root {
+    --shadow-color: rgb(230, 230, 230);
+}
+
+
 body {
     background-color: white;
     display: block;
@@ -12,14 +17,6 @@ body {
 
 nav {
     padding: 10px 0;
-}
-
-nav a {
-    margin: 0 10px;
-}
-
-nav div a {
-    vertical-align: middle;
 }
 
 .leftnav {
@@ -38,18 +35,34 @@ nav div a {
     float: right;
 }
 
-.form_group {
+.search {
     text-align: center;
     margin: 20px auto;
 }
 
-.form_group input {
+.search_box {
     width: 100%;
-    max-width: 900px;
     height: 35px;
+    padding: 15px;
+    max-width: 850px;
+    border: 1px solid rgb(215, 215, 215);
+    border-radius: 200px;
+    text-indent: 7%;
+    font-size: 24px;
 }
 
-.form_input button {
+.search_box:hover {
+    border: 1px solid var(--shadow-color);
+    box-shadow: 0px 2px 8px #ccc;
+}
+
+.search_box:focus {
+    outline: none;
+    border: 1px solid var(--shadow-color);
+    box-shadow: 0px 2px 8px #ccc;
+}
+
+.search_button {
     font-size: 20px;
     max-width: 220px;
     min-width: 170px;
@@ -61,8 +74,13 @@ nav div a {
     border-radius: 5px;
 }
 
-.form_input button:hover {
-    border: 1px solid rgb(230, 230, 230);
+.search_button:hover {
+    border: 1px solid var(--shadow-color);
+    box-shadow: 0px 2px 2px #eee;
+}
+
+.search_button:focus {
+    border: 1px solid var(--shadow-color);
     box-shadow: 0px 2px 2px #eee;
 }
 
@@ -83,16 +101,12 @@ footer {
     padding-left: 15px;
 }
 
-.footer_right:last-child {
-    padding-right: 15px;
-}
-
 .footer_right {
     float: right;
 }
 
-footer a {
-    margin: 0px 10px;
+.footer_right:last-child {
+    padding-right: 15px;
 }
 
 a {
@@ -100,6 +114,7 @@ a {
     color: black;
     font-size: 18px;
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 10px;
 }
 
 a:visited {
@@ -110,18 +125,32 @@ a:hover {
     text-decoration: underline;
 }
 
-.waffle span {
+.icon span {
     vertical-align: middle;
+    font-size: 48px;
+    color:rgb(90, 90, 90);
 }
 
-.waffle span:hover {
+.waffle:hover {
+    --waffle-icon-shadow: rgb(244, 244, 244);
     font-weight: bold;
+    background-color: var(--waffle-icon-shadow);
+    box-shadow: 0 0 0 10px var(--waffle-icon-shadow);
+    border-radius: 50%;
 }
 
-.user span {
-    vertical-align: middle;
+.user:hover {
+    box-shadow: 1px 1px 1px 1px var(--shadow-color);
+    background-color: var(--shadow-color);
+    border-radius: 50%;
 }
 
-.user span:hover {
-    font-weight: bold;
+.search_icon {
+    position: absolute;
+    width: 0%;
+    padding: 16px;
+    margin-left: 5px;
+    margin-top: 1px;
+    font-size: 36px;
+    color: rgb(160, 160, 160);
 }
