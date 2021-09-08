@@ -1,7 +1,7 @@
 body {
     background-color: white;
     display: block;
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
 }
 
 .google_container {
@@ -44,3 +44,29 @@ nav a {
     padding: 15px;
     margin: 43px 17px 0px auto;
 }
+
+footer {
+    display: block;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #eee;
+    padding: 20px;
+}
+
+.footer_left {
+    float: left;
+}
+
+.footer_right {
+    float: right;
+}
+
+.footer_right:last-child {
+    margin-right: 35px;
+}
+
+footer a {
+    margin: 0px 10px;
+}
+
