@@ -15,21 +15,15 @@ body {
 
 nav {
     padding: 10px 0;
+    margin: 0 25px 0 40px;
 }
 
 .leftnav {
     float: left;
+    padding-top: 13px;
 }
 
 .leftnav a {
-    margin-right: 25px;
-}
-
-.leftnav:first-child {
-    margin-left: 40px;
-}
-
-.rightnav:last-child {
     margin-right: 25px;
 }
 
@@ -96,28 +90,27 @@ nav {
 }
 
 footer {
-    display: block;
     position: fixed;
     bottom: 0;
     width: 100%;
+    padding: 40px;
     background-color: #eee;
-    padding: 20px 0px;
 }
 
 .footer_left {
     float: left;
 }
 
-.footer_left:first-child {
-    margin-left: 52px;
-}
-
 .footer_right {
     float: right;
+    margin-right: 80px;
+}
+.footer_left a {
+    margin-right: 40px;
 }
 
-.footer_right:last-child {
-    padding-right: 52px;
+.footer_right a {
+    margin-left: 45px;
 }
 
 a {
@@ -131,14 +124,6 @@ a:visited {
 
 a:hover {
     text-decoration: underline;
-}
-
-.footer_left a {
-    margin-right: 40px;
-}
-
-.footer_right a {
-    margin-left: 45px;
 }
 
 .nav_icon span {
