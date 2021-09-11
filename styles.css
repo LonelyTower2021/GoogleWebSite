@@ -2,16 +2,19 @@
     --shadow-color: rgb(230, 230, 230);
 }
 
+input, select, textarea, button {
+    font-size: inherit;
+}
 
 body {
     background-color: white;
-    display: block;
     margin: 20px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
 }
 
 nav {
     padding: 10px 0;
-    font-size: 20px;
 }
 
 .leftnav {
@@ -72,7 +75,6 @@ nav {
 }
 
 .search_button {
-    font-size: 20px;
     max-width: 220px;
     min-width: 170px;
     padding: 15px 20px;
@@ -121,8 +123,8 @@ footer {
 a {
     text-decoration: none;
     color: black;
-    font-family: Arial, Helvetica, sans-serif;
 }
+
 a:visited {
     text-decoration: none;
 }
@@ -133,12 +135,10 @@ a:hover {
 
 .footer_left a {
     margin-right: 40px;
-    font-size: 21px;
 }
 
 .footer_right a {
     margin-left: 45px;
-    font-size: 20px;
 }
 
 .nav_icon span {
