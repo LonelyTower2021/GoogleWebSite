@@ -8,14 +8,14 @@ input, select, textarea, button {
 
 body {
     background-color: white;
-    margin: 20px 0px 0px 0px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
+    margin-top: -19px;
 }
 
 nav {
-    padding: 10px 0;
-    margin: 0 25px 0 40px;
+    padding: 40px;
+    font-size: 20px;
 }
 
 .leftnav {
@@ -38,7 +38,7 @@ nav {
 .google_container {
     display: block;
     text-align: center;
-    margin: 68px auto 55px auto;
+    margin: 30px auto 10px auto;
 }
 
 .search {
@@ -90,21 +90,23 @@ nav {
 }
 
 footer {
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
-    padding: 40px;
+    padding: 25px 0;
     background-color: #eee;
 }
 
 .footer_left {
     float: left;
+    margin-left: 40px;
 }
 
 .footer_right {
     float: right;
-    margin-right: 80px;
+    margin-right: 40px;
 }
+
 .footer_left a {
     margin-right: 40px;
 }
