@@ -12,15 +12,6 @@ body {
     font-family: arial, sans-serif;
 }
 
-.body-cont {
-    height: 100%;
-    margin-bottom: -50px;
-}
-
-.filler {
-    height: 50px;
-}
-
 .float--left {
     float: left;
 }
@@ -137,11 +128,15 @@ footer {
     bottom: 0;
     width: 100%;
     background-color: #eee;
+    padding: 25px 0;
 }
 
-.footer-cont {
-    padding: 25px 50px;
-    margin-bottom: 25px;
+#footer__left {
+    margin-left: 50px;
+}
+
+#footer__right {
+    margin-right: 50px;
 }
 
 .footer__links--marginleft {
