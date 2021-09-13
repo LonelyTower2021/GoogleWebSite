@@ -1,45 +1,49 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Two+Tone" rel="stylesheet">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="normalize.css">
         <link rel="stylesheet" href="styles.css">
-        <nav top_bott>
-            <div class="leftnav">
-                <a class="about" href="#">About</a>
-                <a class="store" href="#">Store</a>
+        <nav>
+            <div class="float--left nav__section--paddingtop">
+                <a class="nav__links--marginleft" href="#">About</a>
+                <a href="#">Store</a>
             </div>
-            <div class="rightnav">
-                <a class="gmail" href="#">Gmail</a>
-                <a class="images" href="#">Images</a>
-                <a class="nav_icon" href="#"><span class="material-icons waffle">apps</span></a>
-                <a class="nav_icon" href="#"><span class="material-icons user">account_circle</span></a>
+            <div class="float--right">
+                <a href="#">Gmail</a>
+                <a class="nav__links--marginright" href="#">Images</a>
+                <a class="nav__links--marginright" href="#"><span class="nav__icons material-icons nav__appicon">apps</span></a>
+                <a class="nav__links--marginright" href="#"><span class="nav__icons material-icons-two-tone nav__usericon">account_circle</span></a>
             </div>
         </nav>
     </head>
     <body>
-        <div class="google_container">
-            <img class="google_logo" src="fakegoogle.png" alt="">
-        </div>
-        <form class="search" action="">
+        <div class="body-cont">
+            <img class="google-logo" src="fakegoogle.png" alt="">
+            <form class="search" action="">
                 <div>
                     <span class="material-icons search_icon">search</span>
-                    <input class="search_box" type="text">
+                    <input class="search__input" type="text">
                 </div>
                 <div>
-                    <button class="search_button">Google Search</button>
-                    <button class="search_button">I'm Feeling Lucky</button>
+                    <button class="search__buttons">Google Search</button>
+                    <button class="search__buttons">I'm Feeling Lucky</button>
                 </div>
-        </form>
-        <footer class="top_bott">
-            <div class="footer_left">
-                <a href="">Advertising</a>
-                <a href="">Business</a>
-                <a href="">How Search works</a>
-            </div>
-            <div class="footer_right">
-                <a href="">Privacy</a>
-                <a href="">Terms</a>
-                <a href="">Settings</a>
+            </form>
+        </div>
+        <footer>
+            <div class="footer-cont">
+                <div id="footer__left" class="float--left">
+                    <a class="footer__links--marginleft link--gray" href="">Advertising</a>
+                    <a class="footer__links--marginleft link--gray" href="">Business</a>
+                    <a class="link--gray" href="">How Search works</a>
+                </div>
+                <div id="footer__right" class="float--right">
+                    <a class="link--gray" href="">Privacy</a>
+                    <a class="footer__links--marginright link--gray" href="">Terms</a>
+                    <a class="footer__links--marginright link--gray" href="">Settings</a>
+                </div>
             </div>
         </footer>
     </body>
